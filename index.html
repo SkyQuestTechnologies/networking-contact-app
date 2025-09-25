@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maurice Moore — Digital Card</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="card">
+  <h1>Maurice Moore</h1>
+  <div class="meta">Chief Strategist · SkyQuest Technologies</div>
+  <div class="grid">
+    <div class="label">Email</div><div><a href="mailto:maurice@skyquesttechnologies.com.com">maurice@skyquesttechnologies.com</a></div>
+    <div class="label">Phone</div><div><a href="tel:+16122423227">612-242-3227</a></div>
+    <div class="label">Website</div><div><a href="https://www.skyquesttechnologies.com">skyquesttechnologies.com</a></div>
+  </div>
+  <div class="btns">
+    <a class="btn primary" href="./mycard.vcf">➕ Add to Contacts (.vcf)</a>
+    <a class="btn ghost" href="./add.html">✍️ Add a contact</a>
+    <a class="btn ghost" href="https://docs.google.com/forms/d/e/1FAIpQLSfjKJrbFCXPtHwqk0PE-Xxy6kKeZ8VejRATwkPFdpm_W10BXQ/viewform?usp=sharing&ouid=117107519802910715002" target="_blank">📝 Share your details</a>
+  </div>
+  <!-- Embedded Google Form -->
+    <div class="section">
+      <p class="small">Please enter your details</p>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfjKJrbFCXPtHwqk0PE-Xxy6kKeZ8VejRATwkPFdpm_W10BXQ/viewform?embedded=true" width="640" height="986" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+
+   <!-- QR Section -->
+  <div class="section">
+      <p class="small">Scan this QR to open this page:</p>
+      <img src="assets/digital-card.png" alt="QR code linking to this page" class="qr">
+    </div>
+</div>
+<footer>© <span id="y"></span> Maurice Moore · SkyQuest Technologies </footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
