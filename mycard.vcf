@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Moore;YourFirstName;;;
+FN:YourFirstName Moore
+ORG:SkyQuest Technologies
+TITLE:Cloud Engineer
+TEL;TYPE=CELL:+1-555-123-4567
+EMAIL;TYPE=INTERNET:you@example.com
+URL:https://www.skyquesttechnologies.com
+ADR;TYPE=WORK:;;Your Street;Dallas;TX;75201;USA
+NOTE:Replace placeholders with your real info.
+END:VCARD
