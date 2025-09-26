@@ -11,3 +11,9 @@ h1{margin-top:0;font-size:1.8rem}
 .btn.ghost{background:#fff;color:#222}
 footer{text-align:center;color:#888;margin-top:2rem;font-size:.9rem}
 .qr{width:164px;height:164px;border:1px dashed #ccc;border-radius:12px;display:flex;align-items:center;justify-content:center}
+
+.qr-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
