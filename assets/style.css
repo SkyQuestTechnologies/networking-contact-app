@@ -17,3 +17,19 @@ footer{text-align:center;color:#888;margin-top:2rem;font-size:.9rem}
   justify-content: center;
   margin-top: 1rem;
 }
+
+.card {
+  max-width: 90%;
+  margin: 1rem auto;
+  padding: 1.5rem;
+}
+
+iframe {
+  width: 100%;   /* Google Form scales to screen width */
+  max-width: 100%;
+  border: none;
+}
+img.qr {
+  max-width: 80%;
+  height: auto;
+}
