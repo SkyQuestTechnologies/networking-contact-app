@@ -35,19 +35,11 @@ footer{text-align:center;color:#888;margin-top:2rem;font-size:.9rem}
 }
 
 .btns {
-  max-width: 720px;
-  margin: 2rem auto;
-  padding: 2rem;
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  text-align: center;   /* Centers all inline text + buttons */
-}
-
-.btns .grid {
-  display: inline-block;   /* Keeps labels + values together */
-  text-align: left;        /* Left-aligns inside details block */
-  margin: 1rem auto;
+  display: flex;
+  justify-content: center; /* centers the buttons */
+  gap: 1rem;               /* adds spacing between them */
+  margin: 1.5rem 0;        /* space above & below buttons */
+  flex-wrap: wrap;
 }
 
 iframe {
