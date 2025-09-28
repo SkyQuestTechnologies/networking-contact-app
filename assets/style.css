@@ -34,6 +34,12 @@ footer{text-align:center;color:#888;margin-top:2rem;font-size:.9rem}
   margin: 1rem auto;
 }
 
+.btns .grid {
+  display: inline-block;   /* Keeps labels + values together */
+  text-align: left;        /* Left-aligns inside details block */
+  margin: 1rem auto;
+}
+
 iframe {
   width: 100%;   /* Google Form scales to screen width */
   max-width: 100%;
